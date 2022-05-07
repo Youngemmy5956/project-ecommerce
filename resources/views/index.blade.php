@@ -23,7 +23,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <!-- CSS Style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset('data/style.css')}}">
 </head>
 
 <body class="cms-index-index cms-home-page">
@@ -300,7 +300,7 @@
                                                 <li class="item first">
                                                     <div class="item-inner"> <a class="product-image"
                                                             title="Product Title Here" href="#"><img
-                                                                alt="Product Title Here"" src="
+                                                                alt="Product Title Here" src="
                                                                 {{ asset('data/images/products/img01.jpg') }}"> </a>
                                                         <div class="product-details">
                                                             <div class="access"><a class="jtv-btn-remove"
